@@ -606,4 +606,7 @@ section {
         gap: 1.5rem;
         flex-wrap: wrap;
     }
+    #home {
+        margin-top: -4rem;
+    }
 }
