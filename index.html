@@ -24,7 +24,7 @@
         <header class="header">
 
             <div class="user">
-                <img src="./images/PORT.jpg" alt="">
+                <img src="./images/PORT.jpg" alt="" data-aos="flip-up">
                 <h3>Alugbin Oluwaseyi</h3>
                 <p>Front-end Developer</p>
             </div>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="box-container">
-                    <div class="box">
+                    <div class="box" data-aos="flip-up">
                         <img src="./images/pngwing.com (27).png" alt="" class="mytypescript1">
 
                         <div class="progress">
@@ -83,7 +83,7 @@
                             <div class="bar bar-2-1"><span></span></div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="flip-down">
                         <img src="./images/pngwing.com (28).png" alt="">
 
                         <div class="progress">
@@ -91,7 +91,7 @@
                             <div class="bar bar-2-2"><span></span></div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="fade-up-right">
                         <img src="./images/pngwing.com (29).png" alt="">
 
                         <div class="progress">
@@ -99,7 +99,7 @@
                             <div class="bar bar-2-3"><span></span></div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="fade-down-right">
                         <img src="./images/pngwing.com (31).png" alt="" class="mytypescript">
 
                         <div class="progress">
@@ -107,7 +107,7 @@
                             <div class="bar bar-2-4"><span></span></div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="fade-right">
                         <img src="./images/pngwing.com (30).png" alt="" class="mytypescrip2" width="30%">
 
                         <div class="progress">
@@ -159,34 +159,34 @@
             <h1 class="heading"> My <span>Projects</span> </h1>
             <div class="box-container">
 
-                <div class="box">
+                <div class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="./images/20220416_202138.jpg" alt="">
                     <div class="content">
-                        <a href=" https://hospital-management-system-pi.vercel.app/">
+                        <a href=" https://hospital-management-system-pi.vercel.app/" target="_blank">
                             <h3>project 01</h3>
                         </a>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="3000">
                     <img src="./images/20220416_202121.jpg" alt="">
                     <div class="content">
-                        <a href=" http://gamma-health-project-nine.vercel.app/">
+                        <a href=" http://gamma-health-project-nine.vercel.app/" target="_blank">
                             <h3>project 02</h3>
                         </a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <img src="./images/20220416_202054.jpg" alt="">
                     <div class="content">
-                        <a href="https://new-chaffeur.vercel.app/">
+                        <a href="https://new-chaffeur.vercel.app/" target="_blank">
                             <h3>project 03</h3>
                         </a>
                     </div>
                 </div>
 
-                <div class="box">
-                    <img src="./images/20220416_202026.jpg" alt="">
+                <div class="box" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <img src="./images/20220416_202026.jpg" alt="" target="_blank">
                     <div class="content">
                         <a href=" http://healthlites.vercel.app/">
                             <h3>project 04</h3>
@@ -219,18 +219,23 @@
 
         <div class="credits"> created by <span>harllogeen@gmail.com</span> | all rights reserved </div>
 
-
-
-
-
-
-
-
     </div>
+    <!--aos js file cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!---particles-js-->
     <script src="./javascript/particles.js"></script>
+    <!-----app---js---->
     <script src="./javascript/app.js"></script>
 
     <script src="./js/script.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 400
+        })
+    </script>
+
 
 </body>
 
