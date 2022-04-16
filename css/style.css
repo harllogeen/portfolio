@@ -222,6 +222,7 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
 .home .content h3 {
@@ -230,6 +231,23 @@ section {
     line-height: 1.1;
     text-transform: uppercase;
     text-shadow: var(--text-shadow);
+}
+
+.home #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .home .content p {
@@ -465,17 +483,9 @@ section {
     cursor: pointer;
 }
 
-.portfolio .box-container .box iframe {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    cursor: pointer;
-}
-
 .portfolio .box-container .box img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
 }
 
 .portfolio .box-container .box .content {
